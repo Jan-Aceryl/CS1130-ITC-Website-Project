@@ -11,7 +11,7 @@ CSS
   body {
     min-height: 100vh;
     background-size: cover;
-    background-image: url('./nebula.jpg');
+    background-image: url('./HEAVEN.jpg');
     background-position: top center;
     position: relative;
     z-index: 1;
@@ -24,7 +24,7 @@ CSS
     width: 100%;
     padding: 20px 100px;
     display: flex;
-    background-color: rgba(209, 42, 42, 0.24);
+    background-color: rgba(209, 42, 42, 0.137);
     transition: 0.3s ease background-color;
     align-items: center;
     z-index: 100;
@@ -34,6 +34,7 @@ CSS
     font-size: 50px;
     text-decoration: none;
     font-weight: 500;
+    color: crimson;
   }
   
   .link-container {
@@ -59,18 +60,18 @@ CSS
     border: 2px solid darkcyan;
     border-radius: 5px;
     text-decoration: none;
-    color: purple;
+    color: rgb(234, 237, 240);
     width: 390px;
     overflow: hidden;
   }
   
   .link-container a:hover {
-    color: rgba(202, 5, 5, 0.89);
+    color: rgb(241, 234, 234);
     background-color: darkslategray; 
   }
   
-  .link-container a:link, a:visited {
-    color: rgb(226, 17, 17);
+  .link-container {
+    color: rgb(245, 239, 239);
   }
   
   @media only screen and (max-width: 600px) {

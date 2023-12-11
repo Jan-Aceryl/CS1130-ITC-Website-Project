@@ -6,17 +6,21 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #e6e6fa;
+    background-image: url('./Nebula-Purple.jpg');
+    background-size: cover;
+    background-position: top center;
   }
 
   h1 {
     text-align: center;
-    color: black;
+    color: rgb(238, 221, 221);
     font-size: 45px;
   }
 
   label {
     display: block;
     margin-top: 10px;
+    color: aliceblue;
   }
 
   input {
@@ -29,16 +33,16 @@ body {
 
   button {
     background-color: none;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 10px 15px;
-    border: 1px solid black;
+    border: 1px solid rgb(252, 245, 245);
     cursor: pointer;
     margin-top: 10px;
     border-radius: 4px;
   }
 
   button:hover {
-    background-color: violet;
+    background-color: rgb(250, 242, 242);
   }
 
   table {
@@ -66,8 +70,8 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     background-color: none;
-    color: black;
-    border: 1px solid black;
+    color: rgb(250, 243, 243);
+    border: 1px solid rgb(248, 246, 246);
     border-radius: 4px;
     cursor: pointer;
     transition: 0.3s ease;
