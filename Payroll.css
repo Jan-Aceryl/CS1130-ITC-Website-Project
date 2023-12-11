@@ -75,6 +75,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: 0.3s ease;
+    margin-top: 50%;
+    margin-left: 1%;
   }
 
   .home:hover {

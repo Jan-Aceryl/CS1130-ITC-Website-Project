@@ -24,7 +24,7 @@ CSS
     width: 100%;
     padding: 20px 100px;
     display: flex;
-    background-color: rgba(209, 42, 42, 0.137);
+    background-color: rgba(209, 42, 42, 0.089);
     transition: 0.3s ease background-color;
     align-items: center;
     z-index: 100;
@@ -34,11 +34,11 @@ CSS
     font-size: 50px;
     text-decoration: none;
     font-weight: 500;
-    color: crimson;
+    color: rgb(156, 77, 93);
   }
   
   .link-container {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
