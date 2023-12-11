@@ -1,0 +1,85 @@
+/* Grade Computation Page CSS */
+
+body {
+    font-family:'Helvetica', 'Lucida Handwriting', cursive, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('./Project-Background.png');
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+  } 
+
+  h1 {
+    color: #e9c913;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .labels {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      margin-bottom: 50px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-top: 5px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    border: black;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: rgb(161, 62, 62);
+  }
+  
+  h1#comment {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home:hover {
+    background-color: violet;
+  }
+  
