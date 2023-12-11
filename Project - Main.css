@@ -11,7 +11,7 @@ CSS
   body {
     min-height: 100vh;
     background-size: cover;
-    background-image: url('./Project-Background.png');
+    background-image: url('./nebula.jpg');
     background-position: top center;
     position: relative;
     z-index: 1;
